@@ -1,0 +1,46 @@
+body {
+    background-color: #D6B588;
+    font-family: Arial,  sans-serif;
+  }
+
+  h1 {
+    color: #e6534e;
+    text-align: center;
+  }
+
+  h2{
+    color: #4B0082;
+  }
+
+  h3{
+      color: #d2e8fe
+  }
+
+.layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.left-side{
+  flex: 1;
+}
+
+.left-side img{
+  width: 450px;
+  height: 450px;
+}
+
+.right-side{
+  flex: 0 0 auto;
+  max-width: 375px;
+  word-wrap: break-word;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ol {
+  padding-left: 20px;
+}
