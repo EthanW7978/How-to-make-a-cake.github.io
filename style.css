@@ -16,6 +16,10 @@ body {
       color: #d2e8fe
   }
 
+  p{
+    color:blueviolet
+  }
+
 .layout {
   display: flex;
   align-items: flex-start;
